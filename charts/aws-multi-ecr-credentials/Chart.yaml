@@ -1,8 +1,8 @@
 apiVersion: v1
-appVersion: "1.4.3"
+appVersion: "1.4.4"
 description: This Chart seemlessly integrates Kubernetes with Multi AWS ECR
 name: aws-multi-ecr-credentials
-version: 1.4.3
+version: 1.4.4
 maintainers:
 - email: sanderua@protonmail.com
   name: Sander

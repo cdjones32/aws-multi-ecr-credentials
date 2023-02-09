@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   aws-multi-ecr-credentials:
   - apiVersion: v1
-    appVersion: 1.4.3
+    appVersion: 1.4.4
     created: "2021-01-18T11:03:18.686866+01:00"
     description: This Chart seemlessly integrates Kubernetes with Multi AWS ECR
     digest: f469cf4c942e53dccaac8b9362ea8bce3489ce180caafc7c0ba202347bf7a476
@@ -22,6 +22,6 @@ entries:
       - https://github.com/laviua/aws-multi-ecr-credentials
       - https://github.com/architectminds/helm-charts/tree/master/charts/aws-ecr-credential
     urls:
-    - aws-multi-ecr-credentials-1.4.3.tgz
-    version: 1.4.3
+    - aws-multi-ecr-credentials-1.4.4.tgz
+    version: 1.4.4
 generated: "2021-01-18T11:03:18.686121+01:00"
