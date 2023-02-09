@@ -18,8 +18,9 @@ entries:
       name: Meena Alfons
     name: aws-multi-ecr-credentials
     sources:
-    - https://github.com/laviua/aws-multi-ecr-credentials
-    - https://github.com/architectminds/helm-charts/tree/master/charts/aws-ecr-credential
+      - https://github.com/cdjones32/aws-multi-ecr-credentials
+      - https://github.com/laviua/aws-multi-ecr-credentials
+      - https://github.com/architectminds/helm-charts/tree/master/charts/aws-ecr-credential
     urls:
     - aws-multi-ecr-credentials-1.4.3.tgz
     version: 1.4.3

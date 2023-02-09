@@ -15,3 +15,6 @@ cron: ""
 
 jobImage: amazon/aws-cli
 jobImageTag: latest
+
+# Used to be batch/v1beta1 for older k8s versions
+cronApiVersion: batch/v1

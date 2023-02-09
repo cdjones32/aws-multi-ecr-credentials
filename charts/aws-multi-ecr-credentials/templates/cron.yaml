@@ -1,4 +1,4 @@
-apiVersion: batch/v1beta1
+apiVersion: {{ .Values.cronApiVersion }}
 kind: CronJob
 metadata:
   name: {{ include "aws-multi-ecr-credentials.cronJob" . }}
@@ -8,7 +8,7 @@ metadata:
 spec:
   schedule: "{{ .Values.cron }}"
   successfulJobsHistoryLimit: 2
-  failedJobsHistoryLimit: 2  
+  failedJobsHistoryLimit: 2
   jobTemplate:
     spec:
       backoffLimit: 4
